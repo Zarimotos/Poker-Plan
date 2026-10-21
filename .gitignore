@@ -1,0 +1,55 @@
+# OS and editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*.tmp
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.p12
+*.pfx
+*.key
+secrets/
+
+# Logs and cache
+*.log
+logs/
+.cache/
+.cache-loader/
+
+# JavaScript / frontend
+node_modules/
+dist/
+build/
+coverage/
+.next/
+.nuxt/
+.vite/
+
+# C# / .NET (if selected)
+[Bb]in/
+[Oo]bj/
+.vs/
+TestResults/
+
+# Java / Gradle / Maven (if selected)
+.gradle/
+target/
+*.class
+
+# Python (if selected)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local IDE / testing artifacts
+playwright-report/
+test-results/
